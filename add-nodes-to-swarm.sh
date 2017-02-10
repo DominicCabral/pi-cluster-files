@@ -1,4 +1,6 @@
-$SLAVE_NODE_IPS='10.0.0.206 10.0.0.13 10.0.0.224'
+#!/bin/bash
+
+SLAVE_NODE_IPS='10.0.0.206 10.0.0.13 10.0.0.224'
 
 # Install Parallel SSH
 sudo apt-get install -y pdsh
